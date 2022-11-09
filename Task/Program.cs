@@ -1,6 +1,6 @@
 ﻿string[] arrayGiven = new string[4] { "hello", "2", "world", ":-)" };
 string[] arrayNew = new string[arrayGiven.Length];
-void NewArraySizeCheck(string[] arrayGiven, string[] arrayNew)
+void ArrayTransfer(string[] arrayGiven, string[] arrayNew)
 {
     int n = 3;
     int j = 0;
@@ -22,5 +22,5 @@ void PrintArray(string[] array)
     Console.WriteLine();
 }
 
-NewArraySizeCheck(arrayGiven, arrayNew);
+ArrayTransfer(arrayGiven, arrayNew);
 PrintArray(arrayNew);
